@@ -1,6 +1,6 @@
 ---
 title: "PHC410 (Pharmaceutical Biostatistics)"
-subtitle: "Introduction to R"
+subtitle: "Introduction to R: Practice"
 author: 
   - <put your name here> <your student ID> - <your group>
 date: "`r format(Sys.time(), '%d %B %Y')`"

@@ -1,0 +1,68 @@
+---
+title: "PHC410 (Pharmaceutical Biostatistics)"
+subtitle: "Exploratory Data Analysis (EDA): Practice"
+author: 
+  - <put your name here> <your student ID> - <your group>
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+1. Import `WHO_suicide.csv` from `input` folder and assign to an object `subs_suicide`.
+
+```{r}
+#put your code down here after this line
+```
+
+2. Observe the structure of `subs_suicide`. Convert categorical variables in the data set as factors.
+
+```{r}
+#put your code down here after this line
+
+```
+
+3. Determine and interpret the measure of central tendency for `year`. Load a suitable package if required.
+
+```{r}
+#put your code down here after this line
+
+```
+
+4. Using only single line of codes, find the mean, lower, and upper quartiles for the number of suicides per 100k population for Australia in year 2015. 
+
+```{r}
+#put your code down here after this line
+
+```
+Answer: (put your answer here).
+
+
+5. Choose one variable from `subs_suicide` and create a boxplot using the variable. Explain the range and the skewness of the variable.
+
+```{r}
+#put your code down here after this line
+
+```
+Answer: (put your answer here).
+
+
+
+6. Create a scatter plot between `gdp` and `suicide_100_population`. Interpret the relationship between the two variables from the graph.
+
+```{r collapse=TRUE}
+#put your code down here after this line
+```
+Interpretation: (put your answer here)
+
+
+7. Create both stacked and group bar charts that represent the age and the types of generation. Display the legend and set the title of legend as `Age group`. Use `rainbow(6)` as the colours and set a smaller size of x axis labels with `cex.names=0.6`.
+
+```{r collapse=TRUE}
+#put your code down here after this line
+```
+
+8. Based on your results in question 4, which generation has the highest number of age groups who had attempted suicide?
+
+Answer: (put your answer here)

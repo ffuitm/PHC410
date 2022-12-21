@@ -1,0 +1,62 @@
+---
+title: "PHC410 (Pharmaceutical Biostatistics)"
+subtitle: "Parametric Statistical Techniques: Practice"
+author: 
+  - <put your name here> <your student ID> - <your group>
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+1. Using the description in `cvd_train_desc.txt`, recode all categorical variables of `cvd_train` into factor. Assign variable as ordinal where appropriate. 
+
+```{r collapse=TRUE, warning=FALSE}
+
+```
+
+2. Does the systolic blood pressures differ between patients with and without cardiovascular disease? State your hypothesis, perform appropriate tests and interpret your findings for each test.
+
+a) Hypothesis:  
+
+H$_{0}$: 
+
+H$_{a}$: 
+
+
+b) Perform appropriate tests.
+
+```{r collapse=TRUE}
+
+
+
+
+```
+
+
+c) Interpret your findings for each test. 
+
+
+
+
+
+3. Does the weight of patients differ between different glucose level? Using appropriate tests, determine whether the differences are statistically significant. Assume that the variances between groups are equal. 
+
+a) State your hypothesis 
+
+
+
+
+
+b) Perform appropriate tests. 
+
+```{r collapse=TRUE}
+
+
+```
+
+
+c) Interpret your findings for all applicable tests. 
+
+

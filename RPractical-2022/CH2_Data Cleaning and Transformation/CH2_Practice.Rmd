@@ -1,6 +1,6 @@
 ---
 title: "PHC410 (Pharmaceutical Biostatistics)"
-subtitle: "Data Analytics 2: Practice (Solution)"
+subtitle: "Data Cleaning and Transformation: Practice"
 author: 
   - <put your name here> <your student ID> - <your group>
 date: "`r format(Sys.time(), '%d %B %Y')`"
@@ -29,7 +29,7 @@ My code:
 ```
 
 
-3. Print the column names of `nhanes`.
+3. Print the column names and display the structure of `nhanes`. 
 
 My code:
 ```{r , collapse=TRUE}
@@ -41,12 +41,12 @@ My code:
 
 4. Using the following names, replace the column names and save your changes to `nhanes`:
 
-    + `RIAGENDR` : Gender
-    + `DMDCITZN` : Citizenship
-    + `DMDHREDZ` : EducationL
-    + `DMDHRMAZ` : MaritalS
-    + `DMDHRAGZ` : Age
-    + `INDFMPIR` : PovertyR
+    + `RIAGENDR` as Gender
+    + `DMDCITZN` as Citizenship
+    + `DMDHREDZ` as EducationL
+    + `DMDHRMAZ` as MaritalS
+    + `DMDHRAGZ` as Age
+    + `INDFMPIR` as PovertyR
 
 My code:
 ```{r collapse=TRUE}
@@ -56,7 +56,7 @@ My code:
 ```
 
 
-5. Based on the description in `nhanes_desc.txt`, recode `Gender`, `Citizenship`, `EducationL` and `MaritalS`.
+5. Based on the description in `nhanes_desc.txt`, recode `Gender`, `Citizenship`, `EducationL` and `MaritalS` (use `recode_factor` when appropriate).
 
 My code:
 ```{r collapse=TRUE}
@@ -64,14 +64,7 @@ My code:
 
 ```
 
-6. Display the sequence no, education level and poverty-income ratio for the first 10 male participants.
-My code:
-```{r collapse=TRUE}
-#put your code down here after this line
-
-```
-
-7. Count the number of female and male in `nhanes`, grouped by education level.
+6. Using `pipe` function, display the sequence no, education level and poverty-income ratio for the first 10 male participants.
     
 My code:
 ```{r collapse=TRUE}
@@ -79,10 +72,23 @@ My code:
 
 ```
 
-8. Count the number of rows in `nhanes` with no missing values. _Hint: use complete.cases()_
+7. Count the number of female and male in `nhanes`, grouped by education level. State the number of college graduates according to their gender.
     
 My code:
 ```{r collapse=TRUE}
 #put your code down here after this line
 
 ```
+
+Answer: No. of college graduates; (1) Male: ?    , (2) Female: ?
+
+
+8. Identify the number of rows in `nhanes` without missing values. State the total number.
+    
+My code:
+```{r collapse=TRUE}
+#put your code down here after this line
+
+```
+
+Answer: Total number of rows: ?
